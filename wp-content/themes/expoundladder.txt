@@ -1,0 +1,11 @@
+
+ 			<div class='widget-container sidewidget '>
+				<h4 class='widget-title'></h4>
+				<div class='widget-content sideladder'>
+				<table class='tableClass'>
+				    <tbody><tr>
+				      <th>POS</th>
+				      <th>TEAM</th>
+				      <th style='width:20px;'>% Won</th>
+				    </tr>
+ 		<tr><td>1</td><td><a href="http://www.sportingpulse.com/team_info.cgi?id=18796280&amp;client=1-4011-0-302999-0&compID=302999"  target="spsubwindow" >The Entrance Bateau Bay U15</a></td><td>100.00</td></tr><tr><td>2</td><td><a href="http://www.sportingpulse.com/team_info.cgi?id=18796277&amp;client=1-4011-0-302999-0&compID=302999"  target="spsubwindow" >Gosford U15</a></td><td>100.00</td></tr><tr><td>3</td><td><a href="http://www.sportingpulse.com/team_info.cgi?id=18796278&amp;client=1-4011-0-302999-0&compID=302999"  target="spsubwindow" >Killarney Vale U15</a></td><td>50.00</td></tr><tr><td>4</td><td><a href="http://www.sportingpulse.com/team_info.cgi?id=18796276&amp;client=1-4011-0-302999-0&compID=302999"  target="spsubwindow" >Wyong-Lakes U15</a></td><td>50.00</td></tr><tr><td>5</td><td><a href="http://www.sportingpulse.com/team_info.cgi?id=18796281&amp;client=1-4011-0-302999-0&compID=302999"  target="spsubwindow" >Terrigal-Avoca U15</a></td><td>0.00</td></tr><tr><td>6</td><td><a href="http://www.sportingpulse.com/team_info.cgi?id=18796282&amp;client=1-4011-0-302999-0&compID=302999"  target="spsubwindow" >Peninsula U15</a></td><td>0.00</td></tr></tbody></table></div></div>
