@@ -6,6 +6,7 @@
  *
  * @package Expound
  */
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -45,7 +46,7 @@
 		<div class="site-branding" style="background-image:url('<?php bloginfo('template_url'); ?>/images/banner-bg.jpg')">
 			<div class="site-title-group">
 				<img src="<?php bloginfo('template_url'); ?>/images/tiger-logo.png?v=2" alt="Indians Logo"/>
-				<div class="header-title">Gosford Junior Australian Football Club</div>
+				<div class="header-title">Gosford Tigers Australian Football Club</div>
 			</div>
 		</div>
 
@@ -59,3 +60,20 @@
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
+
+		<div class="noticeboard-container">
+			<h1>Noticeboard</h1>
+			<?php
+			$loop = new WP_Query( array( 'post_type' => 'notice', 'post_status' => 'publish', 'orderby' => 'post_date', 'order' => 'DESC' ) );
+			while ( $loop->have_posts() ) : $loop->the_post();
+				?>
+				<div class="notice">
+					<img src="<?php bloginfo('template_directory'); ?>/images/thumbtack-red.png" class="leftcorner" title="thumbtack"/>
+					<img src="<?php bloginfo('template_directory'); ?>/images/thumbtack-red-reverse.png" class="rightcorner" title="thumbtack"/>
+					<h2><?= get_the_title() ?></h2>
+					<?= the_content() ?>
+				</div>
+				<?php
+			endwhile;
+			?>
+		</div>

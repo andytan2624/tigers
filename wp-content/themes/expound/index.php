@@ -13,15 +13,8 @@
 
 get_header(); ?>
 
-	<header class="page-header">
-	<?php 
-    echo do_shortcode("[metaslider id=76]"); 
-?>
-	</header><!-- .page-header -->
-	
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-		<?php //print do_shortcode("[custom-facebook-feed]");?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>

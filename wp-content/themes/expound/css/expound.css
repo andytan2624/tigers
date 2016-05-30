@@ -1206,6 +1206,18 @@ a.wpm-button:hover {
 
 /*SPONSORS FOOTER */
 
+.sponsorsSlider {
+  width: 976px;
+  clear: both;
+  margin: 13px auto 0 auto;
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+.bannerSlider {
+
+}
+
 .sponsorsFooter {
 width: 976px;
 clear: both;

@@ -71,11 +71,9 @@ function ladder_scheduler(){  // Do something. Anything.}
         fclose ($fp);
 
     endwhile;
+    echo $output;
 }
 
-add_action('ladder_scheduler_action','ladder_scheduler');
-
-wp_schedule_event(time(), 'twicedaily', 'ladder_scheduler_action');
 ?>
 	<div id="secondary" class="widget-area" role="complementary">
 		<?php do_action( 'before_sidebar' ); ?>
@@ -85,15 +83,6 @@ wp_schedule_event(time(), 'twicedaily', 'ladder_scheduler_action');
 
 		echo file_get_contents(TEMPLATEPATH."/ladder.txt");
 		?>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=539951072754810";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-			
-		<div class="fb-like-box" data-href="https://www.facebook.com/GosfordTigersJuniorAfl" data-width="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-					
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGosford-Tigers-AFC-354537944568916&tabs=timeline&width=300&height=70&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 	</div><!-- #secondary -->
+
